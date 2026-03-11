@@ -15,6 +15,22 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            borderColor: {
+                'border': '#e5e7eb',
+            },
+            colors: {
+                background: 'var(--background)',
+                foreground: 'var(--foreground)',
+                card: 'var(--card)',
+                primary: 'var(--primary)',
+                secondary: 'var(--secondary)',
+                muted: 'var(--muted)',
+                accent: 'var(--accent)',
+                destructive: 'var(--destructive)',
+                border: 'var(--border)',
+                input: 'var(--input)',
+                ring: 'var(--ring)',
+            },
         },
     },
 
