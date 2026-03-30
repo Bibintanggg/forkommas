@@ -23,7 +23,7 @@ enum BoardPosition: string
             self::KETUA->value => self::KETUA->label(),
             self::SEKRETARIS->value => self::SEKRETARIS->label(),
             self::BENDAHARA->value => self::BENDAHARA->label(),
-        ];
+        ];  
     }
 
     public static function values(): array

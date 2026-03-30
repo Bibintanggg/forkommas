@@ -9,8 +9,13 @@ class Program extends Model
     protected $table = 'programs';
 
     protected $fillable = [
-        'order_id',
+        'masjid_id',
         'title',
         'descrtipion'
     ];
+
+    public function masjid()
+    {
+        return $this->belongsTo(Masjid::class);
+    }
 }
