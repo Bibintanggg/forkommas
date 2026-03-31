@@ -4,10 +4,10 @@ namespace App\Enum;
 
 enum GalleryCategory: string
 {
-    case KAJIAN_AKBAR = "kajian_akbar",
-    case KEGIATAN_SOSIAL = "kegiatan_sosial",
-    case REMAJA_MASJID = "remaja_masjid",
-    case RAPAT_PENGURUS = "rapat_pengurus",
+    case KAJIAN_AKBAR = "kajian_akbar";
+    case KEGIATAN_SOSIAL = "kegiatan_sosial";
+    case REMAJA_MASJID = "remaja_masjid";
+    case RAPAT_PENGURUS = "rapat_pengurus";
 
     public function label(): string
     {
