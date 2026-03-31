@@ -19,7 +19,8 @@ class CreateEvents
             'event_date' => $data['event_date'],
             'guests' => $data['guests'],
             'banner' => $data['banner'] ?? null,
-            'position' => $data['position']
+            'position' => $data['position'],
+            'location' => $data['location'],
         ]);
     }
 }
