@@ -10,7 +10,7 @@ use App\Models\Events;
 
 class EventController extends Controller
 {
-    public function store(EventRequest $request, CreateEvents $createEvents,)
+    public function store(EventRequest $request, CreateEvents $createEvents)
     {
         $validatedData = $request->validated();
 
