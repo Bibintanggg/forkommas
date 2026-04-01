@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Storage;
 
 class UpdateMasjid
 {
-    public function handle(Masjid $masjid, array $data): bool
+    public function handle(array $data, Masjid $masjid): bool
     {
         if(isset($data['logo'])) {
             if($masjid->logo) {
@@ -17,7 +17,7 @@ class UpdateMasjid
         }
         
         return $masjid->update([
-            'name' => $data['nama'],
+            'name' => $data['name'],
             'address' => $data['address'],
             'description' => $data['description'],
             'logo' => $data['logo'] ?? $masjid->logo,
