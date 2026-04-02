@@ -2,6 +2,7 @@
 
 namespace App\Actions\Gallery;
 
+use App\Models\Gallery;
 use Illuminate\Support\Facades\Storage;
 
 class UpdateGallery

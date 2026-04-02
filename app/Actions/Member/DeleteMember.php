@@ -2,7 +2,7 @@
 
 namespace App\Actions\Member;
 
-class DeleteMasjid
+class DeleteMember
 {
     public function handle($member): bool
     {

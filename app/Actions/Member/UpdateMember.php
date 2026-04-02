@@ -1,18 +1,17 @@
 <?php
 
-namespace App\Actions\Events;
+namespace App\Actions\Member;
 
-class UpdateMasijd 
+class UpdateMember
 {
     public function handle($event, array $data): bool
     {
         return $event->update([
-            'title' => $data['title'],
-            'theme' => $data['theme'],
-            'event_date' => $data['event_date'],
-            'location' => $data['location'],
-            'guests' => $data['guests'],
-            'position' => $data['position']
+            'masjid_id' => $data['masjid_id'],
+            'name' => $data['name'],
+            'phone_number' => $data['phone_number'],
+            'position' => $data['position'],
+            'email' => $data['email']
         ]);
     }
 }

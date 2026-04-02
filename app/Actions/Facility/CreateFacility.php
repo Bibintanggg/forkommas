@@ -6,7 +6,7 @@ use App\Models\Facilities;
 
 class CreateFacility
 {
-    public function handle(array $data)
+    public function handle(array $data): Facilities
     {
         return Facilities::create([
             'masjid_id' => $data['masjid_id'],

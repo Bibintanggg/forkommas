@@ -11,7 +11,7 @@ class Program extends Model
     protected $fillable = [
         'masjid_id',
         'title',
-        'descrtipion'
+        'description'
     ];
 
     public function masjid()

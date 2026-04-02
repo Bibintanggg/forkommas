@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Member extends Model
 {
-    protected $table = 'members';
+    protected $table = 'board_member';
 
     protected $fillable = [
         'masjid_id',

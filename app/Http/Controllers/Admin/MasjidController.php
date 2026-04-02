@@ -7,7 +7,6 @@ use App\Actions\Masjid\UpdateMasjid;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MasjidRequest;
 use App\Models\Masjid;
-use Illuminate\Http\Request;
 
 class MasjidController extends Controller
 {
